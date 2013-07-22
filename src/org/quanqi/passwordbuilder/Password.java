@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.view.Menu;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
-import android.webkit.WebSettings.LayoutAlgorithm;
 import android.webkit.WebView;
 
 public class Password extends Activity {
@@ -26,10 +25,10 @@ public class Password extends Activity {
 		this.mPassWebView.setWebChromeClient(new myWebChromeClient());
 		WebSettings settings = this.mPassWebView.getSettings();
 		settings.setJavaScriptEnabled(true);
-		settings.setMinimumFontSize(22);		
+		settings.setMinimumFontSize(22);
+		
 		this.mPassWebView.loadUrl(URL);
 	}
-	
 	/**
 	 * empty for future feature
 	 * @author jingquanqi
