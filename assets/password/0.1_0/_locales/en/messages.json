@@ -1,0 +1,23 @@
+{
+   "checkPassword": {
+      "message": "Cleartext"
+   },
+   "extensionDescription": {
+      "message": "Build web site user password."
+   },
+   "extensionName": {
+      "message": "Password Build Tool"
+   },
+   "inputDomain": {
+      "message": "Enter specified domain(Default current domain):"
+   },
+   "inputYourPassword": {
+      "message": "Enter your original password:"
+   },
+   "normalTitleText": {
+      "message": "Click to start bulid password on this site."
+   },
+   "outputYourPassword": {
+      "message": "Actual use of the password:"
+   }
+}
